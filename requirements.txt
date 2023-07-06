@@ -1,0 +1,17 @@
+numpy
+torch
+einops
+scipy
+tqdm
+wandb
+imageio==2.24.0
+imageio-ffmpeg==0.4.8
+opencv-python==4.7.0.68
+tyro==0.5.4
+jaxtyping==0.2.19
+torchmetrics==1.0.0
+lpips==0.1.4
+torchinfo==1.8.0
+tensorboardX==2.5.1
+PyMCubes==0.1.2
+trimesh==3.18.0
