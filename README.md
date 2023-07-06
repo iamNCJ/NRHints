@@ -35,7 +35,7 @@
 
 ## Environment
 
-We support Python 3.8+ and PyTorch 1.11+. After getting a required Python environment, you can setup the rest of requirements by running:
+The code is developed and tested on Linux servers with NVIDIA GPU(s). We support Python 3.8+ and PyTorch 1.11+. After getting a required Python environment, you can setup the rest of requirements by running:
 
 ```bash
 git clone https://github.com/iamNCJ/NRHints.git
@@ -62,6 +62,8 @@ python3 main.py config:nr-hints --config.data.path /path/to/data/ --config.scene
 ```
 
 Refer to [train_synthetic.sh](scripts/train_synthetic.sh) and [train_real.sh](scripts/train_real.sh) for training on synthetic and real data, respectively.
+
+> Note: For training on real captured scenes, we recommend turning on camera optimization by using `config:nr-hints-cam-opt`, which can significantly reduce the blurry effects. Since this is an improvement after the paper submission, we will add details about it in an upcoming author's version paper.
 
 ## Testing
 
@@ -109,6 +111,8 @@ Our pretrained models can be downloaded [here](#data-and-models).
 |  Drums  | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Data/Synthetic/Drums_PL_500.zip)        | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Model/Synthetic/Drums_PL_500_step_1000000.ckpt) |
 |  Hotdog | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Data/Synthetic/Hotdog_PL_500.zip)        | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Model/Synthetic/Hotdog_PL_500_step_1000000.ckpt) |
 |  Lego  | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Data/Synthetic/Lego_PL_500.zip)        | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Model/Synthetic/Lego_PL_500_step_1000000.ckpt) |
+
+You can use the script [download_data.sh](scripts/download_data.sh) to download all data.
 
 # Citation
 
