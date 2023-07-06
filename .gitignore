@@ -162,9 +162,6 @@ wandb/
 
 # outputs
 outputs/
-tmp.obj
-*.ckpt
-*.html
 
 # data
-*.json
+training_data/

@@ -2,7 +2,7 @@
 # Basket
 python3 main.py config:nr-hints --config.data.path /path/to/data/Synthetic/Basket_PL_500/ --config.scene-name Basket --config.data.white-background True --config.evaluation-only True
 
-# Complex Ball
+# Layered Woven Ball
 python3 main.py config:nr-hints --config.data.path /path/to/data/Synthetic/Complex_Ball_PL_500/ --config.scene-name Complex_Ball --config.data.white-background True --config.data.is-z-up True --config.model.sdf-network.init-bias 0.05 --config.evaluation-only True
 
 # Cup Plane Diffuse
