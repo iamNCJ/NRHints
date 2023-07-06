@@ -25,7 +25,7 @@
     |
     <a href="https://nrhints.github.io/pdfs/nrhints-sig23.pdf"><strong>Paper</strong></a>
     |
-    <a href="TODO"><strong>Data</strong></a>
+    <a href="#data-and-models"><strong>Data</strong></a>
   </p>
 </p>
 
@@ -76,7 +76,7 @@ Our pretrained models can be downloaded [here](#data-and-models).
 
 # Data and Models
 
-Real Captured Scenes
+## Real Captured Scenes
 
 | Object      | Data        | Pre-trained model        |
 | ----------- | :----------: | :-----------: |
@@ -88,7 +88,7 @@ Real Captured Scenes
 | Cup and Fabric   | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Data/Real/CupFabric.zip)        | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Model/Real/CupFabric_step_1000000.ckpt) |
 | Pikachu Statuette   | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Data/Real/Pikachu.zip)        | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Model/Real/Pikachu_step_1000000.ckpt) |
 
-Synthetic Rendered Scenes
+## Synthetic Rendered Scenes
 
 | Object      | Data        | Pre-trained model        |
 | ----------- | :----------: | :-----------: |

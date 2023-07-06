@@ -93,7 +93,6 @@ def parse_load_nr_data(
                 img = np.load(filename)
             elif frame_image_ext == '.exr':
                 img = imageio.v3.imread(filename)
-                # TODO: add log encoding
             else:
                 img = imageio.v3.imread(filename) / 255.
             if half_res:

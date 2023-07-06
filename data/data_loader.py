@@ -63,7 +63,6 @@ class PixelSampler(object):
         print(f'Local rank: {local_rank}, image_rng_seed: {image_idx_rng_seed}, pixel_rng_seed: {pixel_idx_rng_seed}')
 
     def sample_batch(self):
-        # TODO: sample more inside mask
         if self.strategy == PixelSamplingStrategy.ALL_IMAGES:
             img_indices = self.image_rng.choice(self.train_image_num, self.batch_size)
         elif self.strategy == PixelSamplingStrategy.SAME_IMAGE:
