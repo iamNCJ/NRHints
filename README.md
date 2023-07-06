@@ -63,7 +63,9 @@ python3 main.py config:nr-hints --config.data.path /path/to/data/ --config.scene
 
 Refer to [train_synthetic.sh](scripts/train_synthetic.sh) and [train_real.sh](scripts/train_real.sh) for training on synthetic and real data, respectively.
 
-> Note: For training on real captured scenes, we recommend turning on camera optimization by using `config:nr-hints-cam-opt`, which can significantly reduce the blurry effects. Since this is an improvement after the paper submission, we will add details about it in an upcoming author's version paper.
+> **Note**: 
+> 1. Our code automatically detects the number of GPUs and uses all of them for training. If you want to use a subset of GPUs, you can set the `CUDA_VISIBLE_DEVICES` environment variable.
+> 2. For training on real captured scenes, we recommend turning on camera optimization by using `config:nr-hints-cam-opt`, which can significantly reduce the blurry effects. Since this is an improvement after the paper submission, we will add details about it in an upcoming author's version paper.
 
 ## Testing
 
