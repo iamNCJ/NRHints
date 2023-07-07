@@ -101,7 +101,7 @@ class BaseNRHintPipeline(nn.Module):
         """
 
         if self.config.ray_generator.cam_opt_mode != "off" or self.config.ray_generator.pl_opt:
-            if img_pixel_bundle.rgb_gt:
+            if img_pixel_bundle.rgb_gt is not None:
                 self.register_view(img_pixel_bundle, device, steps=500)
 
         flat_pixel_bundle = img_pixel_bundle.flatten()

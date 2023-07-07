@@ -31,16 +31,17 @@ def launch(config: SystemConfig) -> None:
     # 1. parse & load data into shm
     rank = local_rank()
     if rank == 0:
-        shm_data_writer = parse_load_nr_data(config.data.path, white_background=config.data.white_background)
+        shm_data_writer = parse_load_nr_data(config.data.path, white_background=config.data.white_background, half_res=config.data.half_res)
         shm_info = shm_data_writer.get_shm_info()
     else:
         assert config.serialized_shm_info is not None, "subprocesses need shm_info passed through args"
         shm_info = deserialize_shm_info(config.serialized_shm_info)
 
     # 2. init trainers and subprocess
-    if rank == 0 and torch.cuda.is_available():
+    if torch.cuda.is_available():
         gpu_count = torch.cuda.device_count()
-        if gpu_count > 1:
+        torch.set_num_threads(min(8, os.cpu_count() // gpu_count))
+        if rank == 0 and gpu_count > 1:
             cmd = basic_subprocess_cmd()
             cmd += ["--config.serialized-shm-info", serialize_shm_info(shm_info)]
 
