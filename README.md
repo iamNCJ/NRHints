@@ -25,6 +25,8 @@
     |
     <a href="https://nrhints.github.io/pdfs/nrhints-sig23.pdf"><strong>Paper</strong></a>
     |
+    <a href="https://arxiv.org/abs/2308.13404"><strong>arXiv</strong></a>
+    |
     <a href="#data-and-models"><strong>Data</strong></a>
   </p>
 </p>
@@ -65,7 +67,7 @@ Refer to [train_synthetic.sh](scripts/train_synthetic.sh) and [train_real.sh](sc
 
 > **Note**: 
 > 1. Our code automatically detects the number of GPUs and uses all of them for training. If you want to use a subset of GPUs, you can set the `CUDA_VISIBLE_DEVICES` environment variable.
-> 2. For training on real captured scenes, we recommend turning on camera optimization by using `config:nr-hints-cam-opt`, which can significantly reduce the blurry effects. Since this is an improvement after the paper submission, we will add details about it in an upcoming author's version paper.
+> 2. For training on real captured scenes, we recommend turning on camera optimization by using `config:nr-hints-cam-opt`, which can significantly reduce the blurry effects. Since this is an improvement after the paper submission, details are described in [the author's version](https://arxiv.org/abs/2308.13404).
 
 ## Testing
 
