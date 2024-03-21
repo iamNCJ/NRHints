@@ -96,6 +96,9 @@ Our pretrained models can be downloaded [here](#data-and-models).
 
 ## Synthetic Rendered Scenes
 
+> **Note**:
+> Our synthetic data rendering scripts are released at [here](https://github.com/iamNCJ/bpy-helper/tree/main/examples/nrhints-data).
+
 | Object      | Data        | Pre-trained model        |
 | ----------- | :----------: | :-----------: |
 |  Diffuse  | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Data/Synthetic/Cup_Plane_Diffuse_PL_500.zip)        | [Link](https://igpublicshare.z20.web.core.windows.net/NRHints/Model/Synthetic/Cup_Plane_Diffuse_PL_500_step_1000000.ckpt) |
