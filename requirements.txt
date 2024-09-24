@@ -6,7 +6,7 @@ tqdm
 wandb
 imageio==2.24.0
 imageio-ffmpeg==0.4.8
-opencv-python==4.7.0.68
+opencv-python==4.8.1.78
 tyro==0.5.4
 jaxtyping==0.2.19
 torchmetrics==1.0.0
