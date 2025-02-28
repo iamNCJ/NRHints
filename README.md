@@ -92,7 +92,7 @@ Our pretrained models can be downloaded [here](#data-and-models).
 | Ornamental Fish | [Link](https://igwebhost.azurewebsites.net/NRHints/Data/Real/Fish.zip)        | [Link](https://igwebhost.azurewebsites.net/NRHints/Model/Real/Fish_step_1000000.ckpt) |
 | Cat on Decor   | [Link](https://igwebhost.azurewebsites.net/NRHints/Data/Real/CatSmall.zip)        | [Link](https://igwebhost.azurewebsites.net/NRHints/Model/Real/CatSmall_step_1000000.ckpt) |
 | Cup and Fabric   | [Link](https://igwebhost.azurewebsites.net/NRHints/Data/Real/CupFabric.zip)        | [Link](https://igwebhost.azurewebsites.net/NRHints/Model/Real/CupFabric_step_1000000.ckpt) |
-| Pikachu Statuette   | [Link Part1](https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu01.zip) [Part2](https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu02.zip)       | [Link](https://igwebhost.azurewebsites.net/NRHints/Model/Real/Pikachu_step_1000000.ckpt) |
+| Pikachu Statuette   | [Part1](https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu.zip.001) [Part2](https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu.zip.002)       | [Link](https://igwebhost.azurewebsites.net/NRHints/Model/Real/Pikachu_step_1000000.ckpt) |
 
 ## Synthetic Rendered Scenes
 
