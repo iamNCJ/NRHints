@@ -25,8 +25,8 @@ unzip $DATA_DIR/Real/CatSmall.zip -d $DATA_DIR/Real
 wget https://igwebhost.azurewebsites.net/NRHints/Data/Real/CupFabric.zip -O $DATA_DIR/Real/CupFabric.zip -q --show-progress
 unzip $DATA_DIR/Real/CupFabric.zip -d $DATA_DIR/Real
 
-wget https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu.zip.001 -O $DATA_DIR/Real/Pikachu.zip -q --show-progress
-wget https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu.zip.002 -O $DATA_DIR/Real/Pikachu.zip -q --show-progress
+wget https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu.zip.001 -O $DATA_DIR/Real/Pikachu.zip.001 -q --show-progress
+wget https://igwebhost.azurewebsites.net/NRHints/Data/Real/Pikachu.zip.002 -O $DATA_DIR/Real/Pikachu.zip.002 -q --show-progress
 unzip $DATA_DIR/Real/Pikachu.zip.001 -d $DATA_DIR/Real
 
 
